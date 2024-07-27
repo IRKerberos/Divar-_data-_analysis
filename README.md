@@ -15,7 +15,6 @@
 ```bash
   pip install pytest-playwright
   playwright install
-  
 ```
 
 ## نحوه کار این برنامه
