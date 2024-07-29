@@ -11,7 +11,7 @@ async def run(playwright: Playwright,url) -> list:
     while True:
         # Scroll to the bottom of the page
         await page.evaluate('window.scrollBy(0, window.innerHeight);')
-        await page.wait_for_timeout(500)  # Small delay to allow content to load
+        await page.wait_for_timeout(5)  # Small delay to allow content to load
 
         # Extract links
         links = await page.query_selector_all('a')
