@@ -15,7 +15,6 @@
 ```bash
   pip install pytest-playwright
   playwright install
-  pip install mysql-connector-python
 ```
 
 ## نحوه کار این برنامه
